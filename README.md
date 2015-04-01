@@ -13,7 +13,7 @@ Add a test to `test` called `my_object_test.rb` like this:
 
 ```
 require `test_helper`
-class MyObjectTest < Test::Unit::TestCase
+class MyObjectTest < Minitest::Test
   def test_math_works
     assert_equal 5, MyObject.doesMath(2,3)
   end
